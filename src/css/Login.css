@@ -1,0 +1,73 @@
+.login {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(
+        to bottom right,
+        rgb(0, 204, 240),
+        rgb(6, 236, 6)
+    );
+}
+
+.login-box {
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    transform: translateY(-25%);
+    text-align: center;
+    margin: auto;
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(209, 209, 209);
+}
+
+.login-box-info {
+    text-align: center;
+    margin-top: 10%;
+    padding: 0;
+}
+
+.login-box-title {
+    margin-bottom: 5%;
+}
+
+.login-text-input {
+    width: 75%;
+    height: 35px;
+    border-radius: 10px;
+    border-color: rgb(209, 209, 209);
+    padding-left: 10px;
+}
+
+.login-box-email {
+    margin-bottom: 3%;
+}
+
+.login-box-pass {
+    margin-bottom: 3%;
+}
+
+.login-button {
+    border-radius: 10px;
+    border-color: rgb(209, 209, 209);
+    width: 20%;
+    height: 25px;
+}
+
+.login-button-container {
+    margin-top: 3%;
+}
+
+.login-button-text {
+    font-weight: bold;
+}
+
+.login-account-question {
+    margin-top: 7%;
+}
