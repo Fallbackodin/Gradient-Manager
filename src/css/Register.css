@@ -20,7 +20,7 @@
     transform: translateY(-25%);
     margin: auto;
     text-align: center;
-    background-color: red;
+    background-color: white;
     width: 450px;
     height: 450px;
     border-radius: 10px;
@@ -45,4 +45,19 @@
     border-radius: 10px;
     border-color: rgb(209, 209, 209);
     padding-left: 10px;
+}
+
+.register-button {
+    border-radius: 10px;
+    border-color: rgb(209, 209, 209);
+    width: 20%;
+    height: 25px;
+}
+
+.register-button-text {
+    font-weight: bold;
+}
+
+.register-account-question {
+    margin-top: 7%;
 }

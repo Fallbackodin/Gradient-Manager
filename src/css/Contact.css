@@ -1,3 +1,39 @@
+.contact {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(
+        to bottom right,
+        rgb(0, 204, 240),
+        rgb(6, 236, 6)
+    );
+}
+
+.contact-box {
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    left: 2.5%;
+    right: 2.5%;
+    transform: translateY(-25%);
+    text-align: center;
+    margin: auto;
+    width: 95%;
+    height: 570px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(209, 209, 209);
+    overflow: auto;
+}
+
+.contact-box-info {
+    position: relative;
+    overflow: auto;
+    height: 560px;
+}
+
 .contact-main {
     width: 90%;
     margin-left: 5%;
@@ -6,6 +42,13 @@
 
 .contact-row {
     display: flex;
+    border: solid;
+    border-width: 1px 0px;
+}
+
+.contact-first-row {
+    margin-top: 1%;
+    border-top: none;
 }
 
 .contact-large-flex {

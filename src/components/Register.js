@@ -61,9 +61,23 @@ export default function Register() {
                         ></input>
                     </div>
                     <div>
-                        <button onClick={handleRegister}>Register</button>
-                        <h3>Have an account? Login!</h3>
-                        <button onClick={redirectLogin}>Login</button>
+                        <button
+                            onClick={handleRegister}
+                            className="register-button"
+                        >
+                            <span className="register-button-text">
+                                Register
+                            </span>
+                        </button>
+                        <p className="register-accout-question">
+                            Have an account? Login!
+                        </p>
+                        <button
+                            onClick={redirectLogin}
+                            className="register-button"
+                        >
+                            <span className="register-button-text">Login</span>
+                        </button>
                     </div>
                 </div>
             </div>
